@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Buenos Aires';
+    src: url('BuenosAires-Bold.woff2') format('woff2'),
+        url('BuenosAires-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Buenos Aires';
+    src: url('BuenosAires-Bold.woff2') format('woff2'),
+        url('BuenosAires-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Buenos Aires';
+    src: url('BuenosAires-Thin.woff2') format('woff2'),
+        url('BuenosAires-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Buenos Aires';
+    src: url('BuenosAires-Bold.woff2') format('woff2'),
+        url('BuenosAires-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Buenos Aires';
+    src: url('BuenosAires-Thin.woff2') format('woff2'),
+        url('BuenosAires-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Buenos Aires';
+    src: url('BuenosAires-Light.woff2') format('woff2'),
+        url('BuenosAires-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Buenos Aires';
+    src: url('BuenosAires-Thin.woff2') format('woff2'),
+        url('BuenosAires-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Buenos Aires';
+    src: url('BuenosAires-Regular.woff2') format('woff2'),
+        url('BuenosAires-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Buenos Aires';
+    src: url('BuenosAires-Regular.woff2') format('woff2'),
+        url('BuenosAires-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Buenos Aires';
+    src: url('BuenosAires-Light.woff2') format('woff2'),
+        url('BuenosAires-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Buenos Aires';
+    src: url('BuenosAires-Regular.woff2') format('woff2'),
+        url('BuenosAires-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Buenos Aires';
+    src: url('BuenosAires-LightItalic.woff2') format('woff2'),
+        url('BuenosAires-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Buenos Aires';
+    src: url('BuenosAires-Light.woff2') format('woff2'),
+        url('BuenosAires-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

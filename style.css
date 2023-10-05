@@ -1,0 +1,1361 @@
+/* cmedia query */
+/* container 
+@media screen and (max-width: 425px) and (min-width: 320px){}
+@media screen and (max-width: 768px) and (min-width: 425px){}
+@media screen and (max-width: 1024px) and (min-width: 768px) {}
+@media screen and (min-width: 1024px){} */
+@font-face {
+    font-family: "Regular";
+    src: url('Font/BuenosAires-Regular.woff');
+}
+
+* {
+    font-family: "Regular";
+}
+
+
+.logo {
+    height: 50px;
+}
+
+body {
+    color: #fff7ed;
+}
+
+.navlink {
+    margin-left: 35%;
+}
+
+.navbtn {
+    padding: 10px 20px 10px 20px;
+    margin: 0px 0px 0px 15px;
+    border-radius: 40px;
+
+
+}
+
+
+/* container 1 */
+.underlinecnt1 {
+    position: relative;
+}
+
+
+
+@media screen and (max-width: 425px) and (min-width: 320px) {
+    .cnt1maindiv {
+        display: block;
+        text-align: center;
+    }
+
+    .cnt1img {
+
+        padding: 3%;
+        height: 350px;
+        width: auto;
+    }
+
+    .underlinecnt1::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        width: 120px;
+        height: 20px;
+        background-image: url(Images/underlinev3.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        bottom: -14px;
+    }
+
+    .cnt1links {
+        width: 300px;
+
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .cnt1maindiv {
+        display: block;
+        text-align: center;
+    }
+
+    .cnt1img {
+
+        padding: 3%;
+        height: 350px;
+        width: auto;
+    }
+
+    .underlinecnt1::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        width: 130px;
+        height: 20px;
+        background-image: url(Images/underlinev3.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        bottom: -14px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .cnt1maindiv {
+        display: block;
+        margin-top: 100px;
+
+    }
+
+    .cnt1img {
+
+        padding: 3%;
+
+        height: 500px;
+        width: auto;
+    }
+
+    .underlinecnt1::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        width: 160px;
+        height: 20px;
+        background-image: url(Images/underlinev3.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        bottom: -14px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cnt1maindiv {
+        display: flex;
+        margin-top: 100px;
+    }
+
+    .cnt1img {
+
+        padding: 3%;
+
+        height: 500px;
+        width: auto;
+    }
+
+    .underlinecnt1::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        width: 160px;
+        height: 20px;
+        background-image: url(Images/underlinev3.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        bottom: -14px;
+    }
+}
+
+
+/* cnt 2 */
+@media screen and (max-width: 425px) and (min-width: 320px) {}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {}
+
+@media screen and (min-width: 1024px) {
+    .cnt2maindiv {
+        display: flex;
+        margin-left: 100px;
+        margin-top: 100px;
+        padding: 2%;
+        align-items: center;
+
+    }
+
+    .cnt2div2 {
+        margin-left: 50px;
+        width: 300px;
+
+    }
+
+    .cnt2div1 {
+        width: 500px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 425px) {
+    .cnt2maindiv {
+        display: block;
+        text-align: center;
+        margin-left: 50px;
+        margin-top: 0px;
+    }
+
+    .cnt2div2 {
+        margin-left: 0px;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .cnt2maindiv {
+        display: block;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 70px;
+        padding: 8%;
+    }
+
+    .cnt2div2 {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+}
+
+
+
+/* container 3 */
+@media screen and (max-width: 425px) and (min-width: 320px) {
+    .cnt3maindiv {
+        margin-top: 150px;
+        overflow: scroll;
+        padding: 5%;
+    }
+
+    .cnt3div2 {
+        display: flex;
+        margin-top: 100px;
+        align-items: center;
+        text-align: center;
+        margin-left: 20px;
+
+    }
+
+    .scroll {
+        overflow: scroll;
+        margin-left: 50px;
+
+    }
+
+    .card {
+
+        height: 250px;
+        margin-left: 20px;
+        border-radius: 50px;
+        font-size: smaller;
+        margin: 1%;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .cnt3maindiv {
+        margin-top: 150px;
+        overflow: scroll;
+        padding: 5%;
+    }
+
+    .cnt3div2 {
+        display: flex;
+        margin-top: 100px;
+        align-items: center;
+        text-align: center;
+        margin-left: 20px;
+
+    }
+
+    .scroll {
+        overflow: scroll;
+        margin-left: 20px;
+
+    }
+
+    .card {
+
+        height: 250px;
+        margin-left: 20px;
+        border-radius: 20px;
+        font-size: smaller;
+        margin: 1%;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .cnt3maindiv {
+        margin-top: 150px;
+        overflow: scroll;
+        padding: 5%;
+    }
+
+    .cnt3div2 {
+        display: flex;
+        margin-top: 100px;
+        align-items: center;
+        text-align: center;
+        margin-left: 20px;
+
+    }
+
+    .scroll {
+        overflow: scroll;
+        margin-left: 20px;
+
+    }
+
+    .card {
+
+        height: 250px;
+        margin-left: 20px;
+        border-radius: 20px;
+        font-size: smaller;
+        margin: 1%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cnt3maindiv {
+        margin-top: 150px;
+    }
+
+    .cnt3div2 {
+        display: flex;
+        margin-top: 100px;
+        align-items: center;
+        text-align: center;
+        margin-left: 2%;
+        margin-right: 200px;
+
+
+        /* Ceter a dihorizontally  */
+        position: relative;
+        left: calc(50% - 510px);
+
+
+    }
+
+    .scroll {
+        overflow: hidden;
+        margin-left: 20px;
+
+    }
+
+    .card {
+        width: 12rem;
+        height: 200px;
+        margin-left: -20px;
+        border-radius: 40px;
+        font-size: smaller;
+    }
+
+    .card::after {
+        border: var(--bs-card-border-width) solid rgb(241 187 187 / 18%);
+        box-shadow: 0px 4px 6px rgb(0 0 0 / 10%);
+        border-radius: 30px;
+    }
+}
+
+
+
+
+/* container 4 CSS  */
+@media screen and (max-width: 425px) and (min-width: 320px) {
+    .cnt4maindiv {
+        margin-top: 150px;
+        margin: 0;
+        width: 320px;
+        position: relative;
+        left: calc(50% - 160px);
+        text-align: center;
+
+    }
+
+    .cnt4div22 {
+        display: flex;
+        margin-left: 00px;
+        padding: 10%;
+        margin-top: 0px;
+        width: 320px;
+        position: relative;
+        left: calc(50% - 160px);
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .cnt4div2 {
+        display: block;
+        margin-left: 00px;
+        padding: 10%;
+        margin-top: 0px;
+        width: 320px;
+        position: relative;
+        left: calc(50% - 160px);
+
+        text-align: center;
+    }
+
+
+
+
+    .cnt4div2>img {
+        height: 218px;
+        width: auto;
+    }
+
+    .cnt4div31 {
+        padding: 8%;
+
+
+    }
+
+    .cnt4div32 {
+        padding: 8% 8% 8% 8%;
+    }
+
+    .cnt4div33 {
+        padding: 8%;
+
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .cnt4maindiv {
+        margin-top: 150px;
+        margin: 0;
+        width: 320px;
+        position: relative;
+        left: calc(50% - 160px);
+        text-align: center;
+
+    }
+
+    .cnt4div2 {
+        display: block;
+        margin-left: 00px;
+        padding: 10%;
+        margin-top: 0px;
+        width: 320px;
+        position: relative;
+        left: calc(50% - 170px);
+        text-align: center;
+
+    }
+
+    .cnt4div2>img {
+        height: 210px;
+        width: auto;
+    }
+
+    .cnt4div31 {
+        padding: 8%;
+
+
+    }
+
+    .cnt4div32 {
+        padding: 8% 8% 8% 0%;
+
+
+    }
+
+    .cnt4div33 {
+        padding: 8%;
+
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .cnt4maindiv {
+        margin-top: 250px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        align-items: center;
+        transform: translate(-50%, -50%);
+    }
+
+    .cnt4div2 {
+        display: flex;
+        /* margin-left: 200px; */
+        margin-top: 100px;
+        align-items: center;
+    }
+
+    .cnt4div31 {
+        padding: 8%;
+
+
+    }
+
+    .cnt4div32 {
+        padding: 8% 8% 8% 0%;
+
+
+    }
+
+    .cnt4div33 {
+        padding: 8%;
+
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .cnt4maindiv {
+        margin-top: 250px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        align-items: center;
+        transform: translate(-50%, -50%);
+    }
+
+    .cnt4div2 {
+        display: flex;
+        align-items: center;
+
+        width: 1000px;
+        position: relative;
+        left: calc(50% - 500px);
+        padding: 5%;
+
+    }
+
+    .cnt4div31 {
+        padding: 8%;
+
+
+    }
+
+    .cnt4div32 {
+        padding: 8% 8% 8% 0%;
+
+
+    }
+
+    .cnt4div33 {
+        padding: 8%;
+
+    }
+
+    .underline {
+        position: relative;
+    }
+
+    .underline::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        width: 135px;
+        height: 20px;
+        background-image: url('Images/underlinev3.svg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        bottom: -24px;
+    }
+}
+
+
+/* cnt 6 */
+/* .cnt6maindiv {
+    margin-top: 150px;
+    margin-left: 45px;
+    width: 2000px;
+    overflow: scroll;
+} */
+
+/* @media only screen and (max-width: 425px) {
+    .cnt6maindiv {
+        display: flex;
+        overflow: scroll;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cnt6maindiv {
+        display: flex;
+        overflow: hidden;
+    }
+} */
+
+/* container 7 */
+@media screen and (max-width: 425px) and (min-width: 320px) {
+    .cnt6maindiv {
+        margin-top: 0px;
+        margin-left: 45px;
+        overflow: scroll;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .cnt6maindiv {
+        margin-top: 50px;
+        padding: 45px;
+        overflow: scroll;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .cnt6maindiv {
+        margin-top: 150px;
+        margin-left: 45px;
+
+        overflow: scroll;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cnt6maindiv {
+        margin-top: 50px;
+        margin-left: 45px;
+
+
+    }
+}
+
+/* cnt 7 */
+/* .cnt7maindiv {
+    display: flex;
+    margin-top: 180px;
+    background-color: black;
+}
+
+.cnt7img {
+    margin-left: 200px;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 325px) and (min-width: 425px) {
+    .cnt7img {
+        margin-left: 5%;
+        margin-top: 60px;
+    }
+
+    .cnt7maindiv {
+        display: block;
+        margin-top: 180px;
+        background-color: black;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 425px) {
+    .cnt7maindiv {
+        display: block;
+        align-content: center;
+        align-items: center;
+    }
+
+    .cnt7img {
+        margin-left: 30%;
+        align-items: center;
+        margin-top: 60px;
+    }
+} */
+
+
+
+/* @media only screen and (min-width: 768px) {
+    .cnt7maindiv {
+        display: block;
+        align-content: center;
+        align-items: center;
+    }
+
+    .cnt7img {
+        margin-left: 0%;
+        margin-top: 60px;
+    }
+} */
+/* cnt 7 */
+.cnt7maindiv {
+    display: flex;
+    margin-top: 180px;
+    background-color: black;
+    align-items: center;
+}
+
+.cnt7img {
+    margin-left: 70px;
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+    .cnt7maindiv {
+        display: block;
+        margin-top: 180px;
+        background-color: black;
+    }
+
+    .cnt7img {
+        /* margin-left: 10%; */
+        margin-top: 60px;
+        width: 200px;
+        position: relative;
+        left: calc(30% - 110px);
+    }
+
+    .cnt7maindiv>h3 {
+        font-size: larger;
+    }
+}
+
+/* cnt 8 */
+.cnt8maindiv {}
+
+.cnt8div2 {
+    display: flex;
+    margin-right: 25px;
+}
+
+.cnt8text1 {
+    color: white;
+    font-weight: 700;
+    width: 100%;
+}
+
+.cnt8text2 {
+    color: white;
+    font-weight: 700;
+
+}
+
+.cnt8div3 {
+
+    margin-left: 50px;
+    margin-bottom: 70px;
+}
+
+.cnt8div4 {
+    position: absolute;
+    padding: 2%;
+    margin-top: 35%;
+}
+
+
+
+@media only screen and (max-width: 425px) {
+    .cnt8maindiv {}
+
+    .cnt8div2 {
+        display: block;
+        margin-right: 25px;
+
+
+
+    }
+
+    .cnt8text1 {
+        color: white;
+        font-weight: 700;
+        width: 100%;
+        font-size: smaller;
+    }
+
+    .cnt8text2 {
+        color: white;
+        font-weight: 100;
+
+
+    }
+
+    .cnt8div4 {
+        position: absolute;
+        padding: 2%;
+        margin-top: 15%;
+
+
+    }
+
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .cnt8div2 {
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .cnt8maindiv {}
+
+    .cnt8div2 {
+        display: flex;
+    }
+
+    .cnt8text1 {
+        color: white;
+        font-weight: 700;
+        width: 100%;
+        font-size: x-large;
+    }
+
+    .cnt8text2 {
+        color: white;
+        font-weight: 100;
+        font-size: smaller;
+    }
+
+    .cnt8div4 {
+        position: absolute;
+        padding: 2%;
+        margin-top: 40%;
+    }
+
+}
+
+/* Footer 1 */
+.cnt4maindiv {}
+
+@media only screen and (max-width: 425px) {
+    .cnt4maindiv {}
+}
+
+@media only screen and (max-width: 768px) {
+    .cnt4maindiv {}
+
+    .extra {
+        display: none;
+    }
+}
+
+.cardlogo {
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    height: 90px;
+    left: 8px;
+}
+
+
+.orange-btn {
+    background: #F77D24;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Sans-serif;
+    font-size: 18px;
+    padding-left: 15px;
+
+    i {
+        display: inline-block;
+        border-left: 1px solid rgba(255, 255, 255, 0.35);
+        padding: 15px;
+        margin-left: 15px;
+    }
+}
+
+
+/* carousel */
+
+.MultiCarousel {
+    float: left;
+    overflow: hidden;
+    padding: 15px;
+    width: 100%;
+    position: relative;
+}
+
+.MultiCarousel .MultiCarousel-inner {
+    transition: 1s ease all;
+    float: left;
+}
+
+.MultiCarousel .MultiCarousel-inner .item {
+    float: left;
+}
+
+.MultiCarousel .MultiCarousel-inner .item>div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background: #f1f1f1;
+    color: #666;
+}
+
+.MultiCarousel .leftLst,
+.MultiCarousel .rightLst {
+    position: absolute;
+    border-radius: 50%;
+    top: calc(50% - 20px);
+}
+
+.MultiCarousel .leftLst {
+    left: 0;
+}
+
+.MultiCarousel .rightLst {
+    right: 0;
+}
+
+.MultiCarousel .leftLst.over,
+.MultiCarousel .rightLst.over {
+    pointer-events: none;
+    background: #ccc;
+}
+
+
+/* Footer 1 */
+@media screen and (max-width: 425px) and (min-width: 320px) {
+    .footer1 {
+        background-color: #0b1625;
+        color: white;
+        padding: 2% 0% 2% 0%;
+        display: block;
+        text-align: center;
+        align-items: center;
+
+
+    }
+
+    .footer1>div {
+        padding: 0% 5% 0% 5%;
+    }
+
+    /* .footer2>div {
+        padding: 0% 4% 0% 4%;
+    }
+
+    .footer2>div>h6 {
+        font-size: smaller;
+    }
+
+    .footer2>div>h4 {
+        font-size: larger;
+        font-weight: 600;
+    }
+
+    .footer2>div>div>h4 {
+        font-size: large;
+        font-weight: 600;
+    }
+
+    .ft2div1 {
+        display: block;
+    } */
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .footer1 {
+        background-color: #0b1625;
+        color: white;
+        padding: 2% 0% 2% 0%;
+    }
+
+    .footer1>div {
+        padding: 0% 5% 0% 5%;
+    }
+
+    /* .footer2>div {
+        padding: 0% 4% 0% 4%;
+    }
+
+    .footer2>div>h6 {
+        font-size: smaller;
+    }
+
+    .footer2>div>h4 {
+        font-size: larger;
+        font-weight: 600;
+    }
+
+    .footer2>div>div>h4 {
+        font-size: large;
+        font-weight: 600;
+    }
+
+    .ft2div1 {
+        display: block;
+    }
+
+    .ft2div2 {
+        display: block;
+    } */
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .footer1 {
+        background-color: #0b1625;
+        color: white;
+        padding: 2% 0% 2% 0%;
+    }
+
+    /* .footer2 {
+        display: flex;
+    }
+
+    .footer1>div {
+        padding: 0% 5% 0% 5%;
+    }
+
+    .footer2>div {
+        padding: 0% 4% 0% 4%;
+    }
+
+    .footer2>div>h6 {
+        font-size: smaller;
+    }
+
+    .footer2>div>h4 {
+        font-size: larger;
+        font-weight: 600;
+    }
+
+    .footer2>div>div>h4 {
+        font-size: large;
+        font-weight: 600;
+    }
+
+    .ft2div1 {
+        display: block;
+    }
+
+    .ft2div2 {
+        display: block;
+    } */
+}
+
+@media screen and (min-width: 1024px) {
+    .footer1 {
+        background-color: #0b1625;
+        color: white;
+        padding: 2% 0% 2% 0%;
+        display: flex;
+    }
+
+    .footer1>div {
+        padding: 0% 5% 0% 5%;
+    }
+
+    /* .footer2 {
+        display: flex;
+    }
+
+    .ft2div1 .ft2div2 {
+        display: flex;
+    }
+
+
+    .footer2>div {
+        padding: 0% 4% 0% 4%;
+    }
+
+    .footer2>div>h6 {
+        font-size: smaller;
+    }
+
+    .footer2>div>h4 {
+        font-size: larger;
+        font-weight: 600;
+    }
+
+    .footer2>div>div>h4 {
+        font-size: large;
+        font-weight: 600;
+    } */
+
+}
+
+/* footer 2 */
+@media screen and (max-width: 425px) and (min-width: 320px) {
+
+    .footer2 {
+        display: block;
+        width: 100%;
+    }
+
+    .ft2div1 {
+        position: relative;
+        width: 250px;
+        left: calc(50% - 125px);
+        text-align: center;
+    }
+
+    .ft2div2 {
+        position: relative;
+        width: 250px;
+        left: calc(50% - 125px);
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+
+    .footer2 {
+        display: block;
+    }
+
+    .ft2div1 {
+        position: relative;
+        display: block;
+        width: 600px;
+        left: calc(50% - 300px);
+        text-align: center;
+    }
+
+    .ft2div2 {
+        position: relative;
+        display: block;
+        width: 600px;
+        left: calc(50% - 300px);
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .footer2 {
+        display: flex;
+    }
+
+    .ft2div1 {
+        display: flex;
+    }
+
+    .ft2div2 {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer2 {
+        display: flex;
+
+    }
+
+    .ft2div1 {
+        position: relative;
+        width: 600px;
+        left: calc(50% - 450px);
+        text-align: center;
+    }
+
+    .ft2div2 {
+        position: relative;
+        width: 600px;
+        left: calc(50% - 600px);
+        text-align: center;
+    }
+
+    .ft2div1 {
+        display: flex;
+    }
+
+    .ft2div2 {
+        display: flex;
+    }
+}
+
+
+/* newsltr div */
+
+@media screen and (max-width: 668px) and (min-width: 320px) {
+    .newsltr {
+        display: block;
+    }
+
+    .ltrinput {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 668px) {
+    .newsltr {
+        display: flex;
+    }
+
+    .ltrinput {
+        width: 100%px;
+    }
+}
+
+
+
+
+
+
+input::placeholder {
+
+    /* Firefox, Chrome, Opera */
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+textarea::placeholder {
+    font-weight: 400;
+
+    /* Firefox, Chrome, Opera */
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+/* shadow image */
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style for the image */
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for the dark overlay */
+.dark-overlays {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Adjust the height to control the darkness area */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+    border-radius: 30px;
+
+
+}
+
+
+/* slider 1 */
+@media screen and (max-width: 320px) {
+    .swiper {
+        width: 147%;
+        overflow: hidden;
+    }
+
+}
+
+@media screen and (max-width: 425px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 1024px) {}
+
+.swiper {
+    width: 160%;
+    height: 300px;
+}
+
+.swiper-slide1 {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.border1 {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.border2 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.swiper-slide2 {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.mySwiper1 {
+
+    position: relative;
+    left: -150px;
+    width: 111.8%;
+    overflow: hidden;
+    background-color: #0c1726;
+
+}
+
+.mySwiper2 {
+
+    position: relative;
+    left: -150px;
+    width: 111.8%;
+    overflow: hidden;
+    background-color: #0c1726;
+
+}
+
+
+/* shadow image */
+/* .mySwiper1 .mySwiper2 {
+    position: relative;
+    display: inline-block;
+} */
+
+/* Style for the image */
+/* .mySwiper1 .mySwiper2 img {
+    max-width: 100%;
+    height: auto;
+} */
+
+/* Style for the dark overlay */
+/* Style the image container */
+.dark-overlay::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 200%;
+    height: 50%;
+    /* Adjust the height to control the overlay's size */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1.5));
+    /* Adjust the opacity and color as needed */
+    z-index: 1;
+    /* Place the overlay above the image */
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    /* Adjust the vertical position */
+    left: 50%;
+    /* Adjust the horizontal position */
+    transform: translate(-50%, -50%);
+    /* Center the text */
+    color: white;
+    /* Background color with opacity */
+    color: white;
+    /* Text color */
+    padding: 20px;
+    /* Padding around the text */
+    text-align: center;
+}
+
+/* Style the overlay text elements (e.g., headings, paragraphs) */
+.text-overlay h2 {
+    font-size: 24px;
+    margin: 0;
+}
